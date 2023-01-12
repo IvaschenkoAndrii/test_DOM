@@ -2,14 +2,6 @@ let title = document.getElementsByClassName('item-grid-card__title')
 let authors = document.getElementsByClassName('item-grid-music-preview__author')
 let mp3 = document.getElementsByTagName('audio')
 
-let obj =
-    {
-        title: null,
-        author: null,
-        mp3: null
-    }
-
-
 let res = [];
 
 for (let i = 0; i < title.length; i++) {
